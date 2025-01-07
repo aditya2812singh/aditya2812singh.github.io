@@ -47,7 +47,6 @@ footer, header, hgroup, menu, nav, section {
     flex-direction: column; /* Stack children vertically */
     justify-content: center; /* Center the content vertically */
     align-items: center; /* Center the content horizontally */
-    height: 100vh; /* Full height of the viewport */
     text-align: center; /* Center text alignment */
 }
 
