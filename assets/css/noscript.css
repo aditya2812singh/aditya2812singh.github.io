@@ -3,7 +3,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-.profile-picture img {
+.profile-picture {
     width: 150px; /* Set the desired size */
     height: 150px; /* Keep the height equal to the width */
     border-radius: 50%; /* Makes the container circular */
