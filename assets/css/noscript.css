@@ -3,16 +3,19 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Spotlights */
 .profile-picture img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Ensures the image remains square */
-    border-radius: 50%; /* Makes it circular */
-    object-fit: cover; /* Ensures the image fits well */
+    width: 150px; /* Set the desired size */
+    height: 150px; /* Keep the height equal to the width */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures content doesn't overflow the circle */
+    display: flex; /* Centers the image */
+    justify-content: center;
+    align-items: center;
     border: 2px solid #ccc; /* Optional: Add a border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 }
+/* Spotlights */
+
 
 	.spotlights > section > .image:before {
 		opacity: 0 !important;
