@@ -28,6 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.profile-picture {
+    width: 150px; /* Set the desired size */
+    height: 150px; /* Keep the height equal to the width */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures content doesn't overflow the circle */
+    display: flex; /* Centers the image */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
 body {
 	line-height: 1;
 }
