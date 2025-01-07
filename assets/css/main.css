@@ -41,14 +41,32 @@ footer, header, hgroup, menu, nav, section {
     box-shadow: none; /* Remove the shadow */
     background: none; /* Remove any background styling */
 }
+/* Center the entire section content */
 .inner {
-    display: flex; /* Enable flexbox */
+    display: flex; /* Use flexbox for alignment */
     flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    height: 100%; /* Ensure the inner container spans the full height of the section */
-    text-align: center; /* Center the text */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 100vh; /* Full height of the viewport */
+    text-align: center; /* Center text alignment */
 }
+/* Add spacing below the image */
+.profile-picture {
+    margin-bottom: 20px; /* Adjust spacing between image and text */
+}
+/* Optional: Styling for headings and paragraphs */
+h1 {
+    font-size: 2.5rem; /* Customize heading size */
+    margin-bottom: 10px; /* Spacing below heading */
+}
+p {
+    margin-bottom: 20px; /* Spacing below paragraph */
+}
+/* Button container styling */
+.actions {
+    margin-top: 20px; /* Add spacing above the button */
+}
+
 
 body {
 	line-height: 1;
