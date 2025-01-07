@@ -41,7 +41,14 @@ footer, header, hgroup, menu, nav, section {
     box-shadow: none; /* Remove the shadow */
     background: none; /* Remove any background styling */
 }
-
+.inner {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100%; /* Ensure the inner container spans the full height of the section */
+    text-align: center; /* Center the text */
+}
 
 body {
 	line-height: 1;
