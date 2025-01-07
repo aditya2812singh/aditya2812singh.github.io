@@ -29,8 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 .profile-picture {
-    width: 500px; /* Set the desired size */
-    height: 500px; /* Keep the height equal to the width */
+    width: 350px; /* Set the desired size */
+    height: 350px; /* Keep the height equal to the width */
     border-radius: 50%; /* Makes the container circular */
     overflow: hidden; /* Ensures content doesn't overflow the circle */
     display: flex; /* Centers the image */
