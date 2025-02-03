@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Aditya Singh Portfolio</title>
@@ -11,20 +16,14 @@
         	}
         	.header-content {
             	display: flex;
-            	flex-direction: column;
             	align-items: center;
             	gap: 20px;
-            	text-align: center;
         	}
-        	.header-content .image.avatar img {
-            	width: 400px; /* Increased photo size */
-            	height: 400px; /* Increased photo size */
-            	border-radius: 50%;
-            	border: 2px solid #ccc;
-            	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        	.header-content .image.avatar {
+            	flex: 0 0 auto;
         	}
         	.header-content .content {
-            	text-align: center;
+            	flex: 1;
         	}
     		</style>
 	</head>
@@ -35,10 +34,11 @@
   			<div class="header-content">
     			<!-- Avatar Image -->
     			<div class="image avatar">
-      				<img src="images/Aditya_github_new.png" alt="Profile Picture" />
+      				<img src="images/Aditya_github_new.png" alt="Profile Picture" 
+        				style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid #ccc; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
     			</div>
     			<!-- Content -->
-    			<div class="content">
+    			<div class="content" style="text-align: left;">
       				<h1>Aditya Singh</h1>
       				<p>Working professional in Computer Architecture and Design/Verification vertical.</p>
     			</div>
@@ -177,7 +177,6 @@
 				<h2>Get In Touch</h2>
 				<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 				<div class="row">
-					<!--
 					<div class="col-8 col-12-small">
 						<form method="post" action="#">
 							<div class="row gtr-uniform gtr-50">
@@ -190,7 +189,6 @@
 							<li><input type="submit" value="Send Message" /></li>
 						</ul>
 					</div>
-					-->
 					<div class="col-4 col-12-small">
 						<ul class="labeled-icons">
 							<li>
